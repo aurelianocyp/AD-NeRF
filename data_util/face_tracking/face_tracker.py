@@ -249,7 +249,7 @@ trans = trans.detach()
 light_para = light_para.detach()
 
 for i in range(int((num_frames-1)/batch_size+1)):
-    if (i+1)*batch_size > num_frames:
+    if (i+1)*batch_size > num_frames:  # 设置起始
         start_n = num_frames-batch_size
         sel_ids = np.arange(num_frames-batch_size, num_frames)
     else:
