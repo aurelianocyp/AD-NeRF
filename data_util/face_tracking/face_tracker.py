@@ -248,7 +248,7 @@ euler_angle = euler_angle.detach()
 trans = trans.detach()
 light_para = light_para.detach()
 
-for i in range(int((num_frames-1)/batch_size+1)):
+for i in range(int((num_frames-1)/batch_size+1)): # 把帧打包成batch进行处理
     if (i+1)*batch_size > num_frames:  # 这个if else是设置起始帧和结束帧
         start_n = num_frames-batch_size
         sel_ids = np.arange(num_frames-batch_size, num_frames)
