@@ -7,11 +7,10 @@
     conda init
     conda activate adnerf
     ```
-- [PyTorch3D](https://github.com/facebookresearch/pytorch3d)
+- [PyTorch3D 0.5.0]([https://github.com/facebookresearch/pytorch3d](https://github.com/facebookresearch/pytorch3d/releases))
 
     Recommend install from a local clone
     ```
-    git clone https://github.com/facebookresearch/pytorch3d.git
     cd pytorch3d && pip install -e .
     ```
 - [Basel Face Model 2009](https://faces.dmi.unibas.ch/bfm/main.php?nav=1-1-0&id=details) 
