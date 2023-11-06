@@ -4,6 +4,7 @@
 - You can create an anaconda environment called adnerf with:
     ```
     conda env create -f environment.yml
+    conda init
     conda activate adnerf
     ```
 - [PyTorch3D](https://github.com/facebookresearch/pytorch3d)
