@@ -6,6 +6,7 @@
     conda env create -f environment.yml
     conda init
     conda activate adnerf
+    pip install torchvision==0.9.1+cu111 torchaudio==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
     ```
 - [PyTorch3D 0.5.0](https://github.com/facebookresearch/pytorch3d/releases)
 
