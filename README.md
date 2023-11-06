@@ -7,7 +7,7 @@
     conda init
     conda activate adnerf
     ```
-- [PyTorch3D0.5.0]([https://github.com/facebookresearch/pytorch3d](https://github.com/facebookresearch/pytorch3d/releases))
+- [PyTorch3D0.5.0]([https://github.com/facebookresearch/pytorch3d/releases])
 
     Recommend install from a local clone
     ```
