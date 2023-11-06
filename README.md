@@ -12,6 +12,7 @@
 
     Recommend install from a local clone
     ```
+    conda install -c bottler nvidiacub
     cd pytorch3d && pip install -e .
     ```
 - [Basel Face Model 2009](https://faces.dmi.unibas.ch/bfm/main.php?nav=1-1-0&id=details) 
