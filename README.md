@@ -1,9 +1,4 @@
-# AD-NeRF: Audio Driven Neural Radiance Fields for Talking Head Synthesis
 
-![](paper_data/pipeline.png)
-
-PyTorch implementation for the paper "[AD-NeRF: Audio Driven Neural Radiance Fields for Talking Head Synthesis (ICCV 2021)](https://arxiv.org/abs/2103.11078)".<br/>
-Authors: [Yudong Guo](https://yudongguo.github.io/), [Keyu Chen](http://kychern.github.io/), [Sen Liang](https://scholar.google.com/citations?user=Yv_olnAAAAAJ&hl), [Yong-Jin Liu](https://cg.cs.tsinghua.edu.cn/people/~Yongjin/Yongjin.htm), [Hujun Bao](http://www.cad.zju.edu.cn/home/bao/) and [Juyong Zhang](http://staff.ustc.edu.cn/~juyong/).
 
 ## Prerequisites
 - You can create an anaconda environment called adnerf with:
