@@ -15,6 +15,7 @@
     conda install -c bottler nvidiacub
     cd pytorch3d && pip install -e .
     ```
+    或者通过下载包的方式安装nvidiacub
     To rebuild after installing from a local clone run, `rm -rf build/ **/*.so` then `pip install -e .`.
 - [Basel Face Model 2009](https://faces.dmi.unibas.ch/bfm/main.php?nav=1-1-0&id=details) 
 
