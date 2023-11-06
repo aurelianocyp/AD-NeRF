@@ -15,6 +15,7 @@
     conda install -c bottler nvidiacub
     cd pytorch3d && pip install -e .
     ```
+    To rebuild after installing from a local clone run, `rm -rf build/ **/*.so` then `pip install -e .`.
 - [Basel Face Model 2009](https://faces.dmi.unibas.ch/bfm/main.php?nav=1-1-0&id=details) 
 
     Put "01_MorphableModel.mat" to data_util/face_tracking/3DMM/; cd data_util/face_tracking; run
