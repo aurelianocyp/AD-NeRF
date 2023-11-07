@@ -96,6 +96,7 @@ if running_step == 2:
     for image_path in os.listdir(ori_imgs_dir):
             if image_path.endswith('.jpg'):
                 input = io.imread(os.path.join(ori_imgs_dir, image_path))[:, :, :3]
+                print(image_path)
                 preds = fa.get_landmarks(input)
                 if len(preds) > 0:
                     lands = preds[0].reshape(-1, 2)[:,:2]
