@@ -15,7 +15,7 @@
     conda install -c bottler nvidiacub
     cd pytorch3d && pip install -e .
     ```
-    或者通过下载包的方式安装nvidiacub
+    或者通过下载包的方式安装nvidiacub。不过最好的方法是将一些依赖包删掉`pip uninstall tqdm termcolor tabulate pyyaml protalocker yacs iopath fvcore `，即使采用了镜像迁移也最好删掉....，然后让pytorch3d去自动收集并安装。但是torch或者pytorch需要提前安好。dfrf使用的torch，可以使用torch。pytorch不清楚
     To rebuild after installing from a local clone run, `rm -rf build/ **/*.so` then `pip install -e .`.
 - [Basel Face Model 2009](https://faces.dmi.unibas.ch/bfm/main.php?nav=1-1-0&id=details) 
 
@@ -24,6 +24,7 @@
     python convert_BFM.py
     ```
 ## Train AD-NeRF
+\如果得到结果为Nan，最好在face tracking文件夹中的render 3dmm中设置为blur_radius=0和faces_per_pixel=1
 - Data Preprocess ($id Obama for example)
     ```
     bash process_data.sh Obama
