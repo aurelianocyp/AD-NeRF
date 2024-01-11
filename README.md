@@ -17,7 +17,7 @@
     ```
     或者通过下载包的方式安装nvidiacub。不过最好的方法是将一些依赖包删掉`pip uninstall tqdm termcolor tabulate pyyaml protalocker yacs iopath fvcore `，即使采用了镜像迁移也最好删掉....，然后让pytorch3d去自动收集并安装。但是torch或者pytorch需要提前安好。dfrf使用的torch，可以使用torch。pytorch不清楚\
     To rebuild after installing from a local clone run, `rm -rf build/ **/*.so` then `pip install -e .`.\
-  总之，pytorch3d的安装是玄学，ubuntu的版本也许也有关系
+  总之，pytorch3d的安装是玄学，ubuntu的版本也许也有关系. 换源的方法不太靠谱。直接纯净环境下安装依旧可能安不上。20.04可能安不上
 - [Basel Face Model 2009](https://faces.dmi.unibas.ch/bfm/main.php?nav=1-1-0&id=details) 
 
     Put "01_MorphableModel.mat" to data_util/face_tracking/3DMM/; cd data_util/face_tracking; run
